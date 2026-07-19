@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SULLY black and red streamer rebrand concept</title>
+  <desc id="desc">A self-initiated concept board showing an S monogram profile image, Twitch and YouTube banner, and six matching stream panels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050507"/>
+      <stop offset="0.58" stop-color="#0b0b0f"/>
+      <stop offset="1" stop-color="#160306"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff384d"/>
+      <stop offset="1" stop-color="#a90020"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff2944" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#ff2944" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity="0.62"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sans { font-family: Inter, Arial, Helvetica, sans-serif; }
+      .label { font-size: 18px; font-weight: 800; letter-spacing: 4px; fill: #9b9ba8; }
+      .panel { font-size: 20px; font-weight: 800; letter-spacing: 2px; fill: #f4f4f7; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1290" cy="140" r="360" fill="url(#glow)"/>
+  <circle cx="320" cy="760" r="320" fill="url(#glow)" opacity="0.55"/>
+  <path d="M1100-40L1640 500V650L950-40Z" fill="#d50026" opacity="0.075"/>
+  <path d="M-60 660L420 180H560L60 680Z" fill="#ffffff" opacity="0.025"/>
+
+  <g class="sans">
+    <text x="72" y="72" class="label">SELF-INITIATED REBRAND CONCEPT</text>
+    <text x="1528" y="72" class="label" text-anchor="end">BLACK / SIGNAL RED</text>
+  </g>
+
+  <g transform="translate(74 154)" filter="url(#shadow)">
+    <rect width="430" height="430" rx="58" fill="#0a0a0e" stroke="#2b2b33" stroke-width="2"/>
+    <circle cx="215" cy="215" r="146" fill="#08080b" stroke="url(#red)" stroke-width="9"/>
+    <circle cx="215" cy="215" r="120" fill="none" stroke="#ffffff" stroke-opacity="0.075" stroke-width="2"/>
+    <path d="M291 116H186c-47 0-79 26-79 65 0 38 27 58 73 69l58 14c16 4 24 11 24 22 0 13-12 22-34 22H114l-25 58h137c62 0 102-31 102-81 0-40-25-62-75-74l-57-14c-15-4-23-10-23-19 0-11 10-18 29-18h66Z" fill="url(#red)"/>
+    <path d="M307 116h-66l-22 44h49Z" fill="#ff8090" opacity="0.7"/>
+    <text x="215" y="394" class="sans" font-size="16" font-weight="800" letter-spacing="4" text-anchor="middle" fill="#8d8d9b">PROFILE MARK</text>
+  </g>
+
+  <g transform="translate(550 154)" filter="url(#shadow)">
+    <rect width="976" height="430" rx="58" fill="#0a0a0e" stroke="#2b2b33" stroke-width="2"/>
+    <clipPath id="bannerClip"><rect width="976" height="430" rx="58"/></clipPath>
+    <g clip-path="url(#bannerClip)">
+      <circle cx="854" cy="84" r="245" fill="url(#glow)"/>
+      <path d="M590-40L1040 410V520L500-20Z" fill="#e60029" opacity="0.15"/>
+      <path d="M726-30L1020 264V326L664-30Z" fill="#ff5469" opacity="0.11"/>
+      <path d="M75 342H900" stroke="#26262e" stroke-width="2"/>
+      <rect x="75" y="342" width="215" height="2" fill="url(#red)"/>
+    </g>
+    <text x="75" y="108" class="sans" font-size="17" font-weight="800" letter-spacing="7" fill="#ff4a60">LIVE • CREATE • COMPETE</text>
+    <text x="68" y="274" class="sans" font-size="150" font-weight="950" letter-spacing="-9" fill="#f7f7fa">SULLY</text>
+    <text x="75" y="390" class="sans" font-size="18" font-weight="700" letter-spacing="4" fill="#8d8d9b">TWITCH / YOUTUBE BANNER SYSTEM</text>
+    <g transform="translate(825 285)">
+      <circle cx="0" cy="0" r="64" fill="#09090d" stroke="#ef2440" stroke-width="4"/>
+      <path d="M32-42H-13c-27 0-45 15-45 37 0 21 15 33 42 39l24 6c10 2 15 6 15 13 0 8-7 13-20 13h-51l-12 29H5c36 0 59-18 59-47 0-23-15-36-44-43L-4-1c-9-2-14-6-14-11 0-6 6-10 17-10h21Z" fill="url(#red)"/>
+    </g>
+  </g>
+
+  <g class="sans" transform="translate(74 640)">
+    <text x="0" y="0" class="label">STREAM PANEL SYSTEM</text>
+    <g transform="translate(0 34)">
+      <g transform="translate(0 0)"><rect width="224" height="94" rx="18" fill="#0d0d12" stroke="#34343e"/><rect width="6" height="94" rx="3" fill="#ef2440"/><text x="28" y="58" class="panel">ABOUT</text></g>
+      <g transform="translate(244 0)"><rect width="224" height="94" rx="18" fill="#0d0d12" stroke="#34343e"/><rect width="6" height="94" rx="3" fill="#ef2440"/><text x="28" y="58" class="panel">SCHEDULE</text></g>
+      <g transform="translate(488 0)"><rect width="224" height="94" rx="18" fill="#0d0d12" stroke="#34343e"/><rect width="6" height="94" rx="3" fill="#ef2440"/><text x="28" y="58" class="panel">SETUP</text></g>
+      <g transform="translate(732 0)"><rect width="224" height="94" rx="18" fill="#0d0d12" stroke="#34343e"/><rect width="6" height="94" rx="3" fill="#ef2440"/><text x="28" y="58" class="panel">SOCIALS</text></g>
+      <g transform="translate(976 0)"><rect width="224" height="94" rx="18" fill="#0d0d12" stroke="#34343e"/><rect width="6" height="94" rx="3" fill="#ef2440"/><text x="28" y="58" class="panel">VIDEOS</text></g>
+      <g transform="translate(1220 0)"><rect width="232" height="94" rx="18" fill="url(#red)"/><text x="28" y="58" class="panel">SUBSCRIBE</text></g>
+    </g>
+  </g>
+
+  <g class="sans" transform="translate(74 844)">
+    <text font-size="15" font-weight="750" letter-spacing="3" fill="#777785">INFERRED NAME FROM PUBLIC HANDLE • NOT CLIENT WORK • AUTONOMOUS AI-ASSISTED WORKFLOW</text>
+    <text x="1452" font-size="15" font-weight="850" letter-spacing="3" text-anchor="end" fill="#ef2440">WATERMARKED PREVIEW</text>
+  </g>
+</svg>
