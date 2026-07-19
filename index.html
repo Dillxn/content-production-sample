@@ -62,6 +62,12 @@
       .sample-card { padding: 10px; border: 1px solid var(--line); border-radius: 20px; background: var(--panel); }
       .sample-card video { border-radius: 13px; }
       .sample-card h3 { margin: 13px 5px 5px; font-size: 0.93rem; line-height: 1.35; }
+      .writing-sample { margin-top: 54px; padding: clamp(24px, 5vw, 52px); border: 1px solid var(--line); border-radius: 28px; background: var(--panel); }
+      .writing-sample h2 { max-width: 780px; margin: 0; font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -0.045em; }
+      .writing-sample h3 { margin: 34px 0 8px; color: var(--gold); font-size: 0.88rem; letter-spacing: 0.08em; text-transform: uppercase; }
+      .writing-sample p { max-width: 820px; color: var(--muted); font-size: 1.02rem; line-height: 1.78; }
+      .writing-sample .script-line { color: var(--ink); }
+      .source-list { margin: 18px 0 0; padding-left: 20px; color: var(--muted); line-height: 1.7; }
       .price { margin-top: 26px; color: var(--ink); font-size: 2.5rem; font-weight: 850; letter-spacing: -0.04em; }
       .fine { margin-top: 20px; color: var(--muted); font-size: 0.88rem; line-height: 1.6; }
       footer { padding: 28px 0 42px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
@@ -147,6 +153,43 @@
           <article class="sample-card"><video controls playsinline preload="metadata"><source src="portfolio-videos/content-repurposing-system.mp4" type="video/mp4" /></video><h3>Content repurposing system</h3></article>
           <article class="sample-card"><video controls playsinline preload="metadata"><source src="portfolio-videos/production-brief-system.mp4" type="video/mp4" /></video><h3>Production brief system</h3></article>
         </div>
+      </section>
+
+      <section class="writing-sample" id="writing-sample" aria-labelledby="writing-sample-title">
+        <p class="eyebrow">Original, self-initiated writing sample</p>
+        <h2 id="writing-sample-title">The Sound That Meant the Internet Was Coming</h2>
+        <p>Mini-documentary excerpt · nostalgia / technology · autonomous AI-assisted research and drafting, manually structured and source-checked · not client work</p>
+
+        <h3>Cold open</h3>
+        <p class="script-line">Before the internet became something you carried everywhere, it was a place you had to call.</p>
+        <p class="script-line">You sat at a family computer. You clicked one icon. Then the room filled with a sequence that sounded like a robot argument happening inside a kitchen appliance.</p>
+        <p class="script-line">A dial tone. A phone number. A bright electronic answer. Then static, chirps, and a few sharp bursts that made no sense to you—but made perfect sense to two machines trying to agree on how to speak.</p>
+        <p class="script-line">And if somebody picked up the phone halfway through, the whole thing could end.</p>
+
+        <h3>The ritual</h3>
+        <p class="script-line">Dial-up internet turned going online into a household event. The computer needed the same telephone line the family used for ordinary calls, so internet time had to fit around everything else. You might wait until after dinner. You might ask whether anyone was expecting a call. You might connect late at night, when the line—and the house—were finally quiet.</p>
+        <p class="script-line">That delay created anticipation. The internet did not simply appear when you opened a screen. It arrived in stages, and the sound of the modem was the progress bar.</p>
+
+        <h3>What the noise was doing</h3>
+        <p class="script-line">The famous handshake was not random noise. The modem at your house and the modem at the internet provider were testing the telephone connection and negotiating a usable way to exchange data. The tones helped them identify each other, measure the line, and settle on settings the connection could actually support.</p>
+        <p class="script-line">By 1998, the international V.90 standard described downstream rates of up to 56,000 bits per second and upstream rates of up to 33,600. “Up to” mattered. Telephone lines were built for voices, not flawless digital transfers, and the real connection often landed below the number printed on the modem box.</p>
+        <p class="script-line">A later standard, V.92, raised the maximum upstream rate, shortened startup on recognized connections, and introduced modem-on-hold support for call waiting. Even the final generation of dial-up was still trying to solve the same domestic problem: how to let the internet share a line with ordinary life.</p>
+
+        <h3>Why it still feels personal</h3>
+        <p class="script-line">Today, a connection is usually invisible until it fails. Dial-up announced itself every time. Its slowness shaped what people did online: pages were lighter, images appeared piece by piece, and downloading a single song could take hours. Waiting was not a bug around the experience. Waiting was the experience.</p>
+        <p class="script-line">That is why the handshake can trigger such a specific memory decades later. It recalls more than a technology. It recalls the desk where the computer lived, the person who told you to get off the line, the first screen name you chose, and the strange feeling that an enormous new world was arriving through one ordinary phone cable.</p>
+
+        <h3>Close</h3>
+        <p class="script-line">The sound was awkward, loud, and temporary. It was also a tiny performance of connection: two machines calling across a network, checking the conditions, and finding a language they could share.</p>
+        <p class="script-line">For millions of people, that noise did not mean the internet was broken.</p>
+        <p class="script-line">It meant the internet was almost here.</p>
+
+        <h3>Research notes</h3>
+        <ul class="source-list">
+          <li><a href="https://www.itu.int/rec/T-REC-V.90/en">ITU-T Recommendation V.90</a> — 56,000 bit/s downstream and 33,600 bit/s upstream maximums.</li>
+          <li><a href="https://www.itu.int/ITU-T/recommendations/rec.aspx?lang=en&amp;rec=5246">ITU-T Recommendation V.92</a> — faster upstream, reduced startup time, and modem-on-hold.</li>
+          <li><a href="https://www.computerhistory.org/makesoftware/exhibit/mp3/">Computer History Museum, MP3 exhibit</a> — period context for hours-long song downloads over dial-up.</li>
+        </ul>
       </section>
     </main>
     <footer>
